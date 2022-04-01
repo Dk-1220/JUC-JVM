@@ -25,5 +25,6 @@ public class NotSafeDemo {
                 System.out.println("Thread：" + Thread.currentThread().getName() + "\t\t" + list);
             }, String.valueOf(i)).start();
         }
+        System.out.println();
     }
 }

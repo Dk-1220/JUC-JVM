@@ -3,7 +3,7 @@ package com.dk.juc;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * CountDownLatch实现计数功能，当计数完成之后，主线程才会结束
+ * CountDownLatch实现计数功能（倒计数），每调用一次countDown计数一次，当计数完成之后，主线程才会结束
  */
 public class CountDownLatchDemo {
     public static void main(String[] args) throws InterruptedException {

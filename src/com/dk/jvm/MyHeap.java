@@ -13,6 +13,7 @@ package com.dk.jvm;
  * 2.1.1 -Xms：配置初始化JVM 内存大小
  * 2.1.2 -Xmx：配置JVM 可使用的最大内存大小
  * 2.1.3 +PrintGCDDetails：输出 GC 日志
+ * 2.1.4 -XX:MaxTenuringThreshold：设置对象在新生代中存活的次数
  * 2.1.4 建议：初始化内存和最大内存大小配置一致，避免 GC 机制内存忽大忽小
  */
 public class MyHeap {
